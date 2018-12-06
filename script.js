@@ -1,7 +1,7 @@
 
 //************** Coordinates ********************************
 
-let x = document.getElementById("coordinates");
+let x = document.getElementById("button");
 
     function prueba() {
         if (navigator.geolocation) {
@@ -16,6 +16,3 @@ let x = document.getElementById("coordinates");
         "<br>Longitude: " + position.coords.longitude;
     }
     
-
-    let coordinates = document.getElementById('coordinates');
-    coordinates.addEventListener('click', prueba);
